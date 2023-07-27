@@ -80,9 +80,9 @@ BOARD_RAMDISK_OFFSET := 0x01000000
 BOARD_KERNEL_CMDLINE := \
     video=vfb:640x400,bpp=32,memsize=3072000 \
     disable_dma32=on \
-    winfo.fingerprint=$(DERP_VERSION) \
-    bootinfo.fingerprint=$(DERP_VERSION) \
-    mtdoops.fingerprint=$(DERP_VERSION)
+    winfo.fingerprint=$(XPE_VERSION) \
+    bootinfo.fingerprint=$(XPE_VERSION) \
+    mtdoops.fingerprint=$(XPE_VERSION)
 
 BOARD_BOOTCONFIG := \
     androidboot.hardware=qcom \
@@ -124,6 +124,10 @@ BOARD_QTI_DYNAMIC_PARTITIONS_SIZE := 9122611200
 BOARD_PARTITION_LIST := $(call to-upper, $(BOARD_QTI_DYNAMIC_PARTITIONS_PARTITION_LIST))
 $(foreach p, $(BOARD_PARTITION_LIST), $(eval BOARD_$(p)IMAGE_FILE_SYSTEM_TYPE := ext4))
 $(foreach p, $(BOARD_PARTITION_LIST), $(eval TARGET_COPY_OUT_$(p) := $(call to-lower, $(p))))
+
+BOARD_PRODUCTIMAGE_PARTITION_RESERVED_SIZE := 104857600
+BOARD_SYSTEMIMAGE_PARTITION_RESERVED_SIZE := 104857600
+BOARD_SYSTEM_EXTIMAGE_PARTITION_RESERVED_SIZE := 104857600
 
 ifeq ($(TARGET_PRODUCT), derp_diting)
 $(warning building Xiaomi 12T Pro compatible)
