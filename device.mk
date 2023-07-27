@@ -125,8 +125,7 @@ PRODUCT_PACKAGES += \
     AospWifiResOverlayDitingChina \
     AospWifiResOverlayDitingGlobal \
     AospWifiResOverlayDitingJapan \
-    SettingsOverlayGlobal \
-    SettingsOverlayChina \
+    SettingsOverlayDiting \
     SettingsProviderOverlayChina \
     SettingsProviderOverlayGlobal
 
@@ -162,7 +161,8 @@ PRODUCT_PACKAGES += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(DEVICE_PATH)
+    $(DEVICE_PATH) \
+    vendor/qcom/opensource/commonsys-intf/display
 
 # Storage
 PRODUCT_PROPERTY_OVERRIDES += \
