@@ -683,9 +683,16 @@ vendor/lib64/camera/com.qti.sensor.diting_sunny_imx596_front.so
 vendor/lib64/camera/com.qti.sensor.diting_sunny_s5k4h7_ultra.so
 vendor/lib64/camera/com.qti.sensor.diting_sunny_s5khm6_wide.so
 vendor/lib64/camera/com.qti.sensormodule.diting_ofilm_gc02m1_macro.bin
+vendor/lib64/camera/com.qti.sensormodule.diting_semco_s5khp1_wide.bin
 vendor/lib64/camera/com.qti.sensormodule.diting_sunny_imx596_front.bin
 vendor/lib64/camera/com.qti.sensormodule.diting_sunny_s5k4h7_ultra.bin
 vendor/lib64/camera/com.qti.sensormodule.diting_sunny_s5khm6_wide.bin
+vendor/lib64/camera/com.qti.tuned.default.bin
+vendor/lib64/camera/com.qti.tuned.diting_ofilm_gc02m1_macro.bin
+vendor/lib64/camera/com.qti.tuned.diting_semco_s5khp1_wide.bin
+vendor/lib64/camera/com.qti.tuned.diting_sunny_imx596_front.bin
+vendor/lib64/camera/com.qti.tuned.diting_sunny_s5k4h7_ultra.bin
+vendor/lib64/camera/com.qti.tuned.diting_sunny_s5khm6_wide.bin
 vendor/lib64/camera/com.qti.tuned.default.bin
 vendor/lib64/camera/com.qti.tuned.diting_ofilm_gc02m1_macro.bin
 vendor/lib64/camera/com.qti.tuned.diting_semco_s5khp1_wide.bin
@@ -1517,8 +1524,8 @@ vendor/firmware/gmu_gen70000.bin
 vendor/lib64/libmm-hdcpmgr.so
 
 # Hotword Enrollment
--product/priv-app/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND.apk
--product/priv-app/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND.apk
+-product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk
+-product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
 system_ext/framework/com.android.hotwordenrollment.common.util.jar
 
@@ -1672,7 +1679,6 @@ vendor/etc/init/android.hardware.neuralnetworks-shim-service-qti.rc
 vendor/lib64/camera/libQnnHtp.so
 vendor/lib64/camera/libQnnHtpV69Skel.so
 vendor/lib64/camera/libQnnHtpV69Stub.so
-vendor/lib64/libQnnGpu.so
 vendor/lib64/libQnnHtpAltPrepV69Stub.so
 vendor/lib64/libQnnHtpPrepare.so
 vendor/lib64/libQnnHtp.so
