@@ -144,12 +144,6 @@ PRODUCT_PACKAGES += \
 # Properties
 include $(DEVICE_PATH)/configs/properties/default.mk
 
-# RIL
-PRODUCT_PACKAGES += \
-    Ims \
-    QtiTelephony \
-    qti-telephony-common
-
 # Perf
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.perf@2.3
@@ -170,27 +164,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Speed profile services and wifi-service to reduce RAM and storage
 PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
-
-# Telephony
-PRODUCT_PACKAGES += \
-    extphonelib \
-    extphonelib-product \
-    extphonelib.xml \
-    extphonelib_product.xml \
-    ims-ext-common \
-    ims_ext_common.xml \
-    qti-telephony-hidl-wrapper \
-    qti-telephony-hidl-wrapper-prd \
-    qti_telephony_hidl_wrapper.xml \
-    qti_telephony_hidl_wrapper_prd.xml \
-    qti-telephony-utils \
-    qti-telephony-utils-prd \
-    qti_telephony_utils.xml \
-    qti_telephony_utils_prd.xml \
-    telephony-ext
-
-PRODUCT_BOOT_JARS += \
-    telephony-ext
 
 # Update engine
 PRODUCT_PACKAGES += \
