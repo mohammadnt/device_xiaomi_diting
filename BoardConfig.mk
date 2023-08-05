@@ -126,7 +126,7 @@ $(foreach p, $(BOARD_PARTITION_LIST), $(eval BOARD_$(p)IMAGE_FILE_SYSTEM_TYPE :=
 $(foreach p, $(BOARD_PARTITION_LIST), $(eval TARGET_COPY_OUT_$(p) := $(call to-lower, $(p))))
 
 
-ifeq ($(TARGET_PRODUCT), derp_diting)
+ifeq ($(TARGET_PRODUCT), lineage_diting)
 $(warning building Xiaomi 12T Pro compatible)
 BOARD_PREBUILT_ODMIMAGE := vendor/xiaomi/diting/images/odm.img
 BOARD_PREBUILT_VENDORIMAGE := vendor/xiaomi/diting/images/vendor.img
