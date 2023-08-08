@@ -5,13 +5,13 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_diting.mk \
-    $(LOCAL_DIR)/derp_ditingp.mk
+    $(LOCAL_DIR)/lineage_diting.mk \
+    $(LOCAL_DIR)/lineage_ditingp.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_diting-eng \
-    derp_diting-userdebug \
-    derp_diting-user \
-    derp_ditingp-eng \
-    derp_ditingp-userdebug \
-    derp_ditingp-user
+    lineage_diting-eng \
+    lineage_diting-userdebug \
+    lineage_diting-user \
+    lineage_ditingp-eng \
+    lineage_ditingp-userdebug \
+    lineage_ditingp-user
