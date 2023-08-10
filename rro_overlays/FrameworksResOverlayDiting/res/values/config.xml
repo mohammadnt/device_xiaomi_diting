@@ -8,7 +8,7 @@
          timeout expires.  May be less than the minimum allowed brightness setting
          that can be set by the user. -->
     <integer name="config_screenBrightnessDim">15</integer>
-    <item name="config_screenBrightnessDimFloat" format="float" type="dimen">0.000854597</item>
+    <item name="config_screenBrightnessDimFloat" format="float" type="dimen">0.005</item>
 
     <!-- Minimum screen brightness setting allowed by power manager.
          -2 is invalid so setting will resort to int value specified above.
