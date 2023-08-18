@@ -179,7 +179,6 @@ PRODUCT_PACKAGES += \
     Ims \
     QtiTelephony \
     qti-telephony-common \
-    XiaomiEuicc \
     OpenEUICC
 
 # Rootdir
